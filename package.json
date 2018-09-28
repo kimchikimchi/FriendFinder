@@ -1,0 +1,23 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "FriendFinder Node.JS full-stack app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node ./server.js"
+    "clean": "rm -rf ./node_modules"
+    "watch": "npx nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimchikimchi/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimchikimchi/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/kimchikimchi/FriendFinder#readme"
+}
