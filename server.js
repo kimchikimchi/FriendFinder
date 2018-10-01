@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use('/api', require("./app/routing/apiRoutes.js"));
 app.use('/', require("./app/routing/htmlRoutes"));
 
-
+// listening function should come last after all helper functions are in place
 app.listen(PORT, function(){
     console.log(`Friend Finder listening on port ${PORT}!`)
 });

@@ -16,10 +16,9 @@ router.get('/survey', function(req, res) {
     res.sendFile(path.join(__dirname, "../public/survey.html"));
 });
 
-// 'catch-all clauses'
+// 'catch-all' clause.  Display home page
 router.all('*', function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
 });
-
 
 module.exports = router;
