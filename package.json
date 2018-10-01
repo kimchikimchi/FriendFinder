@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && node ./server.js"
-    "clean": "rm -rf ./node_modules"
+    "start": "npm install && node ./server.js",
+    "clean": "rm -rf ./node_modules",
     "watch": "npx nodemon ./server.js"
   },
   "repository": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/kimchikimchi/FriendFinder/issues"
   },
-  "homepage": "https://github.com/kimchikimchi/FriendFinder#readme"
+  "homepage": "https://github.com/kimchikimchi/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
